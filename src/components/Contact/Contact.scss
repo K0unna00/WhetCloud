@@ -1,0 +1,31 @@
+.form-container{
+    margin-top: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    padding: 35px;
+    .title{
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+}
+form{
+    justify-content: space-between;
+    padding: 15px 15px 15px 0;
+
+    input, textarea{
+        margin: 15px 0;
+        padding: 10px;
+        border: 1px solid rgb(202, 202, 202);
+    }
+    button{
+        text-transform: uppercase;
+        padding: 12px;
+        font-size: 15px;
+        background-color: black;
+        color: white;
+        outline: 0;
+        border: 0;
+    } 
+}
+Iframe{
+    margin-top: 30px;
+}

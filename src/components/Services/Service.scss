@@ -1,0 +1,44 @@
+.service-container {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 140px;
+    flex-wrap: wrap;
+    font-family: 'Work Sans', sans-serif;
+    .title {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 38px;
+        letter-spacing: 1px;
+    }
+    .text{
+        margin-top: 30px;
+        font-size: 17px;
+        color: gray;
+        letter-spacing: 1px;
+        border-radius: 12px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+        padding: 30px;
+    }
+    .serviceCards{
+        padding: 0 40px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        // box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+
+        .serviceCard{
+            margin-top: 25px;
+            padding: 20px;
+            text-align: center;
+            .title{
+                font-size: 24px;
+            }
+            .desc{
+                margin-top: 16px;
+                color: gray;
+            }
+        }
+    }
+}
+
+

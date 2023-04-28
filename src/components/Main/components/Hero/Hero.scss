@@ -1,0 +1,40 @@
+.hero {
+    background-color: #e8e6e4;
+    background-image: url("./hero.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .container {
+        align-items: center;
+        height: 900px;
+        .title {
+            // text-align: center;
+            font-weight: 600;
+            font-size: 30px;
+            font-family: 'Work Sans', sans-serif;
+            letter-spacing: 2px;
+            color: white;
+            animation: heroTitle 1.5s 0.2s 1 ease-in-out;
+            span{
+                font-size: 20px;
+                color: rgb(199, 199, 199);
+            }
+        }
+    }
+}
+@keyframes heroTitle {
+    from{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@media only screen and (max-width: 380px) {
+    
+}
