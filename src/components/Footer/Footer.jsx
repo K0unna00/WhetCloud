@@ -20,7 +20,7 @@ export default function Footer() {
             </div>
         </div>
         <div class="copyright col-12">
-            Copyright © WhetCloud 2016 - 20. All Rights Reserved
+            Copyright © WhetCloud 2016 - 2023 All Rights Reserved
         </div>
     </footer>
   )

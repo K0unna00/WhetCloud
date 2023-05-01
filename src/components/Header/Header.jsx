@@ -24,6 +24,8 @@ export default function Header() {
                 <Link onClick={openMenu} to='/cloudService'>Cloud Service</Link>
                 <Link onClick={openMenu} to='/digitalService'>Digital Media Service</Link>
                 <Link onClick={openMenu} to='/consultingService'>Consulting Service</Link>
+                <Link onClick={openMenu} to='/mobileAppService'>Mobile App Development Service</Link>
+                <Link onClick={openMenu} to='/webDesignService'>Web Design Service</Link>
                 <Link onClick={openMenu} to='/contact'>Contact</Link>
             </div>
         )
@@ -49,6 +51,8 @@ export default function Header() {
                             <Link to='/cloudService'>Cloud Service</Link>
                             <Link to='/digitalService'>Digital Media Service</Link>
                             <Link to='/consultingService'>Consulting Service</Link>
+                            <Link to='/mobileAppService'>Mobile App Development Service</Link>
+                            <Link to='/webDesignService'>Web Design Service</Link>
                         </div>
                     </nav>
                     {

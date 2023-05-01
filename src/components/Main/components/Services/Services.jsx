@@ -41,7 +41,7 @@ export default function Services() {
                     </div>
                 </div>
                 <div className="title col-12">What we do <br/> Our services blended with unique solutions</div>
-                <div className="serviceCards" data-aos="fade-left">
+                <div className="serviceCards" data-aos="fade-down">
                     <div className="serviceCardOut col-sm-12 col-md-3">
                         <div className="title">
                             Web Development

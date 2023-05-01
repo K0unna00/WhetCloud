@@ -168,11 +168,40 @@
         }
     }
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 700px) {
+    .services{
+        .container {
+            &>.title {
+                margin-top: 440px;
+                font-size: 32px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 590px) {
     .service-cards{
         right: 50px;
     }
     .resultCards{
         display: none !important;
     }
+    .services{
+        .container {
+            &>.title {
+                margin-top: 600px;
+                font-size: 30px;
+            }
+        }
+    }
 }
+@media only screen and (max-width: 400px) {
+    .services{
+        .container {
+            &>.title {
+                margin-top: 700px;
+                font-size: 26px;
+            }
+        }
+    }
+}
+

@@ -11,7 +11,7 @@ export default function Video() {
         
       }, [])
   return (
-    <div className="video col-12" data-aos="fade-left">
+    <div className="video col-12" data-aos="fade-right">
             <div className="container">
                 <div className="title col-12">
                     Overview of Our Company

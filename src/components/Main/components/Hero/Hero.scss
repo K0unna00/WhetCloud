@@ -36,5 +36,11 @@
     }
 }
 @media only screen and (max-width: 380px) {
-    
+    .hero{
+        .container{
+            .title{
+                font-size: 20px;
+            }
+        }
+    }
 }

@@ -5,8 +5,11 @@ import Footer from './components/Footer/Footer'
 import CloudService from './components/Services/Cloud/CloudService';
 import ConsultingService from './components/Services/Consulting/ConsultingService';
 import DigitalMediaService from './components/Services/DigitalMedia/DigitalMediaService';
+import MobileAppService from './components/Services/MobileApp/MobileAppService';
 import './Index.scss';
 import Contact from './components/Contact/Contact';
+import WebDesignService from './components/Services/WebDesign/WebDesign';
+
 
 
 
@@ -20,6 +23,8 @@ function App() {
           <Route path="/consultingService" element={<ConsultingService/>}/>
           <Route path="/digitalService" element={<DigitalMediaService/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="/mobileAppService" element={<MobileAppService/>}/>
+          <Route path="/webDesignService" element={<WebDesignService/>}/>
       </Routes>
       <Footer/>
     </>
