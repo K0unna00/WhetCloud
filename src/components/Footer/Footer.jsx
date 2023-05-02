@@ -8,9 +8,9 @@ export default function Footer() {
         <div class="container col-6">
             <div class="footerCard col-md-4">
                 <div>Quick Links</div>
-                <Link href="">Company Overview</Link>
-                <Link href="">Terms of Services</Link>
-                <Link href="">Privacy Policy</Link>
+                <Link to="/companyOverview">Company Overview</Link>
+                <Link to="/termsServices">Terms of Services</Link>
+                <Link to="/privacyPolicy">Privacy Policy</Link>
             </div>
             <div class="footerCard col-md-4 text-right">
                 <div>Contact</div>

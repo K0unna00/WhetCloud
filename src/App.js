@@ -9,6 +9,9 @@ import MobileAppService from './components/Services/MobileApp/MobileAppService';
 import './Index.scss';
 import Contact from './components/Contact/Contact';
 import WebDesignService from './components/Services/WebDesign/WebDesign';
+import CompanyOverview from './components/Footer/components/CompanyOverview';
+import TermsServices from './components/Footer/components/TermsServices';
+import PrivacyPolicy from './components/Footer/components/PrivacyPolicy';
 
 
 
@@ -25,6 +28,9 @@ function App() {
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/mobileAppService" element={<MobileAppService/>}/>
           <Route path="/webDesignService" element={<WebDesignService/>}/>
+          <Route path="/companyOverview" element={<CompanyOverview/>}/>
+          <Route path="/termsServices" element={<TermsServices/>}/>
+          <Route path="/privacyPolicy" element={<PrivacyPolicy/>}/>
       </Routes>
       <Footer/>
     </>

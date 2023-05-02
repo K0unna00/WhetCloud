@@ -1,0 +1,15 @@
+.footerCompText{
+    margin: 90px 0;
+    .sub-text{
+        margin: 30px 0;
+    }
+    a{
+        background-color: #6B87CE;
+        color: white;
+        padding: 10px 15px;
+        &:hover{
+            background-color: #6580c4;
+            box-shadow: 2px 1px 5px 1px;
+        }
+    }
+}
